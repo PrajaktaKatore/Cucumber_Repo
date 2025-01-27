@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="RunCucumberTest" time="2.956" errors="4" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\ALM\Xray POC&apos;s\Xray_Jenkins_Integration\Cucumber\Cucumber_Demo"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\ALM\Xray POC&apos;s\Xray_Jenkins_Integration\Cucumber\Cucumber_Demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\PRAJAK~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="E:\Maven\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\nodejs\;C:\Program Files\7-Zip;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\prajaktaka\Desktop\Ticket Data\allure\allure-2.26.0\bin;E:\Maven\apache-maven-3.6.3\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;E:\SonarScanner\sonar-scanner-4.1.0.1829\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\GitExtensions\;C:\Program Files\Curl\curl-8.7.1_7-win64-mingw\bin;C:\Program Files\Git\cmd;C:\Users\prajaktaka\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.1.1\bin;;E:\VisualCodeStudio\Microsoft VS Code\bin;C:\Users\prajaktaka\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="E:\Maven\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="E:\Maven\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\prajaktaka"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="prajaktaka"/>
+    <property name="java.class.path" value="E:\Maven\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="E:\Maven\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Amazon create account page should have verification on all the fields" name="All of the fields should display an error when not populated on form submission #1" time="2.29">
+    <error message="The step &apos;I am on the site homepage&apos; and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;I am on the site homepage&quot;)
+public void i_am_on_the_site_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I click on {string} on the {string} Page&quot;)
+public void i_click_on_on_the_page(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I enter {string} into all the fields on the page&quot;)
+public void i_enter_into_all_the_fields_on_the_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I clear the {string} field on the Create Account Page&quot;)
+public void i_clear_the_field_on_the_create_account_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the {string} on the {string} Page should be {string}&quot;)
+public void the_on_the_page_should_be(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;I am on the site homepage&apos; and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;I am on the site homepage&quot;)
+public void i_am_on_the_site_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I click on {string} on the {string} Page&quot;)
+public void i_click_on_on_the_page(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I enter {string} into all the fields on the page&quot;)
+public void i_enter_into_all_the_fields_on_the_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I clear the {string} field on the Create Account Page&quot;)
+public void i_clear_the_field_on_the_create_account_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the {string} on the {string} Page should be {string}&quot;)
+public void the_on_the_page_should_be(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario Outline: All of the fields should display an error when not populated on form submission &amp;#27;[90m# src/test/Features/CucumberFile.feature:15&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mI am on the site homepage&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI click on &quot;sign in link&quot; on the &quot;Home&quot; Page&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI click on &quot;register&quot; on the &quot;Sign In&quot; Page&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI enter &quot;tesT@test.com&quot; into all the fields on the page&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI clear the &quot;name&quot; field on the Create Account Page&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI click on &quot;submit&quot; on the &quot;Create Account&quot; Page&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe &quot;missing_name_error&quot; on the &quot;create Account&quot; Page should be &quot;visible&quot;&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Amazon create account page should have verification on all the fields" name="All of the fields should display an error when not populated on form submission #2" time="0.212">
+    <error message="The step &apos;I am on the site homepage&apos; and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;I am on the site homepage&quot;)
+public void i_am_on_the_site_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I click on {string} on the {string} Page&quot;)
+public void i_click_on_on_the_page(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I enter {string} into all the fields on the page&quot;)
+public void i_enter_into_all_the_fields_on_the_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I clear the {string} field on the Create Account Page&quot;)
+public void i_clear_the_field_on_the_create_account_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the {string} on the {string} Page should be {string}&quot;)
+public void the_on_the_page_should_be(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;I am on the site homepage&apos; and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;I am on the site homepage&quot;)
+public void i_am_on_the_site_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I click on {string} on the {string} Page&quot;)
+public void i_click_on_on_the_page(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I enter {string} into all the fields on the page&quot;)
+public void i_enter_into_all_the_fields_on_the_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I clear the {string} field on the Create Account Page&quot;)
+public void i_clear_the_field_on_the_create_account_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the {string} on the {string} Page should be {string}&quot;)
+public void the_on_the_page_should_be(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario Outline: All of the fields should display an error when not populated on form submission &amp;#27;[90m# src/test/Features/CucumberFile.feature:16&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mI am on the site homepage&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI click on &quot;sign in link&quot; on the &quot;Home&quot; Page&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI click on &quot;register&quot; on the &quot;Sign In&quot; Page&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI enter &quot;tesT@test.com&quot; into all the fields on the page&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI clear the &quot;email&quot; field on the Create Account Page&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI click on &quot;submit&quot; on the &quot;Create Account&quot; Page&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe &quot;missing_email_error&quot; on the &quot;create Account&quot; Page should be &quot;visible&quot;&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Amazon create account page should have verification on all the fields" name="All of the fields should display an error when not populated on form submission #3" time="0.177">
+    <error message="The step &apos;I am on the site homepage&apos; and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;I am on the site homepage&quot;)
+public void i_am_on_the_site_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I click on {string} on the {string} Page&quot;)
+public void i_click_on_on_the_page(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I enter {string} into all the fields on the page&quot;)
+public void i_enter_into_all_the_fields_on_the_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I clear the {string} field on the Create Account Page&quot;)
+public void i_clear_the_field_on_the_create_account_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the {string} on the {string} Page should be {string}&quot;)
+public void the_on_the_page_should_be(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;I am on the site homepage&apos; and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;I am on the site homepage&quot;)
+public void i_am_on_the_site_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I click on {string} on the {string} Page&quot;)
+public void i_click_on_on_the_page(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I enter {string} into all the fields on the page&quot;)
+public void i_enter_into_all_the_fields_on_the_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I clear the {string} field on the Create Account Page&quot;)
+public void i_clear_the_field_on_the_create_account_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the {string} on the {string} Page should be {string}&quot;)
+public void the_on_the_page_should_be(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario Outline: All of the fields should display an error when not populated on form submission &amp;#27;[90m# src/test/Features/CucumberFile.feature:17&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mI am on the site homepage&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI click on &quot;sign in link&quot; on the &quot;Home&quot; Page&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI click on &quot;register&quot; on the &quot;Sign In&quot; Page&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI enter &quot;tesT@test.com&quot; into all the fields on the page&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI clear the &quot;password&quot; field on the Create Account Page&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI click on &quot;submit&quot; on the &quot;Create Account&quot; Page&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe &quot;missing_password_error&quot; on the &quot;create Account&quot; Page should be &quot;visible&quot;&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Amazon create account page should have verification on all the fields" name="All of the fields should display an error when not populated on form submission #4" time="0.277">
+    <error message="The step &apos;I am on the site homepage&apos; and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;I am on the site homepage&quot;)
+public void i_am_on_the_site_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I click on {string} on the {string} Page&quot;)
+public void i_click_on_on_the_page(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I enter {string} into all the fields on the page&quot;)
+public void i_enter_into_all_the_fields_on_the_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I clear the {string} field on the Create Account Page&quot;)
+public void i_clear_the_field_on_the_create_account_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the {string} on the {string} Page should be {string}&quot;)
+public void the_on_the_page_should_be(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;I am on the site homepage&apos; and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;I am on the site homepage&quot;)
+public void i_am_on_the_site_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I click on {string} on the {string} Page&quot;)
+public void i_click_on_on_the_page(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I enter {string} into all the fields on the page&quot;)
+public void i_enter_into_all_the_fields_on_the_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I clear the {string} field on the Create Account Page&quot;)
+public void i_clear_the_field_on_the_create_account_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;the {string} on the {string} Page should be {string}&quot;)
+public void the_on_the_page_should_be(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario Outline: All of the fields should display an error when not populated on form submission &amp;#27;[90m# src/test/Features/CucumberFile.feature:18&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mI am on the site homepage&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI click on &quot;sign in link&quot; on the &quot;Home&quot; Page&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI click on &quot;register&quot; on the &quot;Sign In&quot; Page&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI enter &quot;tesT@test.com&quot; into all the fields on the page&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI clear the &quot;confirm_passwd&quot; field on the Create Account Page&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI click on &quot;submit&quot; on the &quot;Create Account&quot; Page&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe &quot;missing_confirm_password_error&quot; on the &quot;create Account&quot; Page should be &quot;visible&quot;&amp;#27;[0m
+</system-out>
+  </testcase>
+</testsuite>

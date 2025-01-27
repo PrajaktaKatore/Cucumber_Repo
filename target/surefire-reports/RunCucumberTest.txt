@@ -1,0 +1,128 @@
+-------------------------------------------------------------------------------
+Test set: RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 4.802 sec <<< FAILURE!
+All of the fields should display an error when not populated on form submission #1(Amazon create account page should have verification on all the fields)  Time elapsed: 2.29 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'I am on the site homepage' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the site homepage")
+public void i_am_on_the_site_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I click on {string} on the {string} Page")
+public void i_click_on_on_the_page(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter {string} into all the fields on the page")
+public void i_enter_into_all_the_fields_on_the_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I clear the {string} field on the Create Account Page")
+public void i_clear_the_field_on_the_create_account_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the {string} on the {string} Page should be {string}")
+public void the_on_the_page_should_be(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+All of the fields should display an error when not populated on form submission #2(Amazon create account page should have verification on all the fields)  Time elapsed: 0.212 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'I am on the site homepage' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the site homepage")
+public void i_am_on_the_site_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I click on {string} on the {string} Page")
+public void i_click_on_on_the_page(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter {string} into all the fields on the page")
+public void i_enter_into_all_the_fields_on_the_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I clear the {string} field on the Create Account Page")
+public void i_clear_the_field_on_the_create_account_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the {string} on the {string} Page should be {string}")
+public void the_on_the_page_should_be(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+All of the fields should display an error when not populated on form submission #3(Amazon create account page should have verification on all the fields)  Time elapsed: 0.177 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'I am on the site homepage' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the site homepage")
+public void i_am_on_the_site_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I click on {string} on the {string} Page")
+public void i_click_on_on_the_page(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter {string} into all the fields on the page")
+public void i_enter_into_all_the_fields_on_the_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I clear the {string} field on the Create Account Page")
+public void i_clear_the_field_on_the_create_account_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the {string} on the {string} Page should be {string}")
+public void the_on_the_page_should_be(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+All of the fields should display an error when not populated on form submission #4(Amazon create account page should have verification on all the fields)  Time elapsed: 0.277 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'I am on the site homepage' and 6 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the site homepage")
+public void i_am_on_the_site_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I click on {string} on the {string} Page")
+public void i_click_on_on_the_page(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter {string} into all the fields on the page")
+public void i_enter_into_all_the_fields_on_the_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I clear the {string} field on the Create Account Page")
+public void i_clear_the_field_on_the_create_account_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the {string} on the {string} Page should be {string}")
+public void the_on_the_page_should_be(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
