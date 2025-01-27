@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 4.802 sec <<< FAILURE!
-All of the fields should display an error when not populated on form submission #1(Amazon create account page should have verification on all the fields)  Time elapsed: 2.29 sec  <<< ERROR!
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 4.992 sec <<< FAILURE!
+All of the fields should display an error when not populated on form submission #1(Amazon create account page should have verification on all the fields)  Time elapsed: 2.174 sec  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: The step 'I am on the site homepage' and 6 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
@@ -33,7 +33,7 @@ public void the_on_the_page_should_be(String string, String string2, String stri
 }
 
 
-All of the fields should display an error when not populated on form submission #2(Amazon create account page should have verification on all the fields)  Time elapsed: 0.212 sec  <<< ERROR!
+All of the fields should display an error when not populated on form submission #2(Amazon create account page should have verification on all the fields)  Time elapsed: 0.115 sec  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: The step 'I am on the site homepage' and 6 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
@@ -64,7 +64,7 @@ public void the_on_the_page_should_be(String string, String string2, String stri
 }
 
 
-All of the fields should display an error when not populated on form submission #3(Amazon create account page should have verification on all the fields)  Time elapsed: 0.177 sec  <<< ERROR!
+All of the fields should display an error when not populated on form submission #3(Amazon create account page should have verification on all the fields)  Time elapsed: 0.187 sec  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: The step 'I am on the site homepage' and 6 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
@@ -95,7 +95,7 @@ public void the_on_the_page_should_be(String string, String string2, String stri
 }
 
 
-All of the fields should display an error when not populated on form submission #4(Amazon create account page should have verification on all the fields)  Time elapsed: 0.277 sec  <<< ERROR!
+All of the fields should display an error when not populated on form submission #4(Amazon create account page should have verification on all the fields)  Time elapsed: 0.034 sec  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: The step 'I am on the site homepage' and 6 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
