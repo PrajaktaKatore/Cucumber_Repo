@@ -7,8 +7,8 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
         features = "src/test/Features/demoblaze.feature", // Path to the feature files
         glue = "stepDefination", // Path to the step definitions package
-        plugin = {"pretty", "html:target/cucumber-reports"} // Report options
-)
+        plugin = {"json:target/cucumber-reports/Cucumber.json"}
+        )
 public class RunCucumberTest 
 {
         

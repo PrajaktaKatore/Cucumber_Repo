@@ -10,7 +10,6 @@ Then     I click on "submit"
 
 
 Examples:
-| field     	 | error							|
-| name      	 | Prajakta							|
-| email			 | studymailid12@gmail.com		    |
-| password		 | abc@123							|
+| name     	 |  email								| password	
+| Prajakta   |	studymailid12@gmail.com				| abc@123	
+
