@@ -6,6 +6,7 @@ import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.cucumber.java.en.Then;
 
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -28,6 +29,7 @@ public class SignUp
 		
 		driver.get("https://demoblaze.com/");
 		driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
     }
     
     @When("I click on {string} on the {string} Page")
